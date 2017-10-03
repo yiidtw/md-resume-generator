@@ -1,12 +1,12 @@
-md-resume-generator
+Markdown Resume Generator 
 ===
-
-## Markdown resume generator develope under python 3 for tech employers
 
 **這是一個科技工作作 / 阿宅 / 工程師 / 程序員用的 markdown 履歷產生器**
 
+- 使用來自 https://gecd.mit.edu 的範例
 - 乾淨、講重點
 - 簡化開發流程，只要修改 css
+- [開發筆記](https://wyde.github.io/2017/10/03/Python-Markdown-Resume-Generator/)
 
 ## template reference
 
@@ -17,7 +17,7 @@ md-resume-generator
 右上角先 fork
 ```
     $ git clone git@github.com:<your github account>/md-resume-generator.git
-    $ cd ./md-resume.generator
+    $ cd ./md-resume-generator
     $ pip install -r requirement.txt # my virtualenv folder is at /home/webuser/venv
     $ vim ./source/resume.md # edit your resume
 
