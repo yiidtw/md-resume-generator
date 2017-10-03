@@ -13,12 +13,19 @@ def generate():
     infile.close()
     
     css = '''<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" href="./style/style.css">'''
+    fork_github = '''<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
+        <![endif]-->'''
+
+    ribbon = '''<a class="github-fork-ribbon" href="https://github.com/wyde/md-resume-generator" title="Fork me on GitHub">Fork me on GitHub</a>'''
     
     md = mistune.Markdown()
     html = md(text)
     
     outfile = open('./docs/index.html', 'w', encoding='utf-8')
-    outfile.write('<html><head>' + css + '</head><body>' + html + '</body></html>')
+    #outfile.write('<html><head>' + css + '</head><body>' + html + '</body></html>')
+    outfile.write('<html><head>' + css + fork_github + '</head><body>' + ribbon + html + '</body></html>')
     outfile.close()
     print("static files are generated is ./docs folder")
 

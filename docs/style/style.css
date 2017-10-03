@@ -8,7 +8,7 @@ body {
 
 li {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    margin-left: 160px;
+    margin-left: 120px;
     font-size: 0.75em;
     line-height: 95%;
 }
@@ -16,31 +16,31 @@ li {
 h1 {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     text-align: center;
-    font-size: 2em;
-    line-height: 30%;
+    font-size: 1em;
+    line-height: 10%;
     margin-top: 10px;
 }
 
 h2 {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    width: 150px;
+    width: 100px;
     float: left;
     margin: auto;
     font-size: 0.8em;
-    line-height: 50%;
+    line-height: 80%;
 }
 
 h3 {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    margin-left: 160px;
-    margin-top: 10px;
+    margin-left: 120px;
+    margin-top: 20px;
     font-size: 0.8em;
     line-height: 50%;
 }
 
 h4 {
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    margin-left: 160px;
+    margin-left: 120px;
     font-size: 0.8em;
     line-height: 50%;
 }
@@ -48,6 +48,7 @@ h4 {
 hr {
     border: 0;
     height: 1px;
+    margin-bottom: 18px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
@@ -82,5 +83,4 @@ a:hover {
 a:active {
     color: blue;
 }
-Try it Yourself »
 
