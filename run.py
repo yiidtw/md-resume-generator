@@ -1,4 +1,4 @@
-#!/home/webuser/venv/bin/python
+#!/home/webuser/venv/bin/python3
 # -*- coding: utf-8 -*-
 
 import mistune
@@ -12,7 +12,7 @@ def generate():
     text = infile.read()
     infile.close()
     
-    css = '''<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css"></style>'''
+    css = '''<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" href="./style/style.css">'''
     
     md = mistune.Markdown()
     html = md(text)
